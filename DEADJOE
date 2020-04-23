@@ -1,0 +1,26 @@
+
+*** These modified files were found in JOE when it aborted on Thu Apr 23 17:35:57 2020
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+/home/student/REST/REST-API/.git/COMMIT_EDITMSG
+
+*** File '/home/student/REST/REST-API/.git/COMMIT_EDITMSG'
+Docker-compose.yml added
+#
+# Committer: Student <student@UGUbuntuL18.04-32>
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   Dockerfile
+#	new file:   docker-compose.yml
+#	renamed:    requirement.txt -> requirements.txt
+#
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
