@@ -32,7 +32,10 @@ class UserManager(BaseUserManager):
 
         user = self.model(email=self.normalize_email(email), **extra_fields)  # normalized email to make smaller case
         user.set_password(password) # coming from the BaseUserManager
-        user.save(using=self._db)
+        user.save(using=self._db) # In Django, you can configure multiple
+        #database to work with the same project. In our case, we only use one
+        #database, however it is best practice to define using=._db so the code
+        # will work if we add any other database in the future.
 
         return user
 
